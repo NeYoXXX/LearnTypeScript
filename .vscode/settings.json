@@ -1,0 +1,25 @@
+{
+    "window.zoomLevel": 0,
+    "explorer.confirmDelete": false,
+    "eslint.autoFixOnSave": true,
+    "eslint.validate":[
+        "javascript",
+        "javascriptreact",
+        {
+            "language": "typescript",
+            "autoFix": true
+        },
+        {
+            "language": "html",
+            "autoFix": true
+        },
+        {
+            "language": "vue",
+            "autoFix": true
+        }
+    ],
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    }
+
+}
